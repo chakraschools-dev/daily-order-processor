@@ -27,6 +27,7 @@ def main() -> None:
 
     lines = [
         REPORT_TITLE,
+        f"Source: {DATA_FILE.name}",
         f"Processed: {len(orders)}",
         f"Accepted: {accepted}",
         f"Rejected: {rejected}",
