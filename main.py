@@ -5,7 +5,6 @@ DATA_FILE = Path("orders.csv")
 OUTPUT_DIR = Path("output")
 REPORT_TITLE = "Daily Operations Summary"
 
-
 def is_valid_order_id(order_id: str) -> bool:
     """Return True when an order ID contains non-whitespace text."""
     return bool(order_id.strip())
