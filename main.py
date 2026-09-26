@@ -3,7 +3,7 @@ import csv
 
 DATA_FILE = Path("orders.csv")
 OUTPUT_DIR = Path("output")
-REPORT_TITLE = "Daily Order Summary"
+REPORT_TITLE = "Daily Operations Summary"
 
 
 def is_valid_order_id(order_id: str) -> bool:
