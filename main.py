@@ -3,7 +3,7 @@ import csv
 
 DATA_FILE = Path("orders.csv")
 OUTPUT_DIR = Path("output")
-REPORT_TITLE = "Daily Operations Summary"
+REPORT_TITLE = "Daily Orders Report"
 
 def is_valid_order_id(order_id: str) -> bool:
     """Return True when an order ID contains non-whitespace text."""
