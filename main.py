@@ -7,8 +7,8 @@ REPORT_TITLE = "Daily Order Summary"
 
 
 def is_valid_order_id(order_id: str) -> bool:
-    """Return True when an order ID is not empty."""
-    return bool(order_id)
+    """Return True when an order ID contains non-whitespace text."""
+    return bool(order_id.strip())
 
 
 def load_orders(path: Path) -> list[dict[str, str]]:
