@@ -9,3 +9,7 @@ python main.py
 ```
 
 The program reads `orders.csv`, checks order IDs, prints a summary, and writes a local report to `output/summary.txt`.
+
+## Validation rule
+
+Order IDs must contain at least one non-whitespace character.
